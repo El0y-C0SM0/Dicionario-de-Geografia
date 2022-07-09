@@ -1,0 +1,44 @@
+html{
+    min-height: 100%;
+}
+body{
+    margin: 0;
+}
+header{
+    text-align: center;
+    background-color: #09aa23;
+}
+main{
+    padding: 2em;
+}
+section{
+    border: 2px solid #09aa23;
+    margin: 3em;
+}
+#cabeçalho{
+    text-align: center;
+}
+#cabeçalho ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
+}
+#retornar-topo{
+    background-color: #09aa23;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+#retornar-topo h1 a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+#indice ul li ul{
+    display: none;
+}
+#indice:hover ul li ul{
+    display: inline;
+}
