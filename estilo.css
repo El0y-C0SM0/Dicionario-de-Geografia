@@ -5,20 +5,28 @@ body{
     margin: 0;
 }
 header{
+    top: 0;
     text-align: center;
     background-color: #09aa23;
     font-family: 'Oswald', sans-serif;
     font-size: x-large;
 }
+header h1{
+    margin: 0;
+    padding: 1%;
+    color: white;
+}
 main{
     padding: 2em;
     font-family:  Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
+    background-color: #f6fff7;
 }
 section{
     border: 2px solid #09aa23;
     margin: 3em;
     padding: 1em;
+    background-color: white;
 }
 #cabeçalho{
     text-align: center;
@@ -32,7 +40,7 @@ section{
     color: black;
     text-decoration: none;
 }
-#cabeçalho a:visited{
+#cabeçalho a:visited, footer a:visited{
     color: black;
     text-decoration: none;
 }
@@ -40,11 +48,39 @@ section{
     color: #09aa23;
     text-decoration: none;
 }
+footer{
+    text-align: center;
+    background-color: #09aa23;
+    color: white;
+    margin-bottom: -2em;
+    margin-top: -2em;
+    padding: 1%;
+}
+footer h3{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;  
+}
+footer a:link{
+    color: white;
+    text-decoration: none;
+}
+footer a:visited, a:visited, a:link{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover, a:active{
+    color: #064e12;
+    text-decoration: none;
+}
 #dicionário p, h2, h3{
     text-align: left;
 }
 #retornar-topo{
-    background-color: #064e12;
+    background-color: #09aa2491;
     border-radius: 50%;
     position: fixed;
     bottom: 2em;
@@ -57,10 +93,11 @@ section{
     text-align: center;
 }
 #indice{
-    background-color: #064e12;
+    background-color: #09aa2491;
     color: white;
     position: sticky;
     top: 0;
+    left: 7%;
     display: inline-block;
     padding-right: 1%;
     padding-left: 1%;
