@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <title>Dicionáio Geológico e Geomorfológico</title>
 </head>
 
@@ -18,13 +21,13 @@
         <section id="cabeçalho">
             <h1>Turma:</h1>
             <p>INF1A</p>
-            <p>Participantes:</p>
+            <h1>Participantes:</h1>
             <!--pensei em colocar alinhado ao centro-->
             <ul>
                 <li>Arthur Henrique</li>
                 <li>David Matos</li>
                 <li><a href="https://github.com/El0y-C0SM0">Eloy Ribeiro</a></li>
-                <li><a href="https://github.com/MatheusViniciusV"></a>Matheus Vinicius</li>
+                <li><a href="https://github.com/MatheusViniciusV">Matheus Vinicius</a></li>
                 <li><a href="https://github.com/paulistaLH">Pedro Justi</a></li>
                 <li><a href="https://github.com/VictorEduReis">Victor Eduardo</a></li>
             </ul>
@@ -35,10 +38,10 @@
                 <li>
                     <h3>indice</h3>
                     <ul>
-                        <li>Rochas magmáticas extrusivas</li>
-                        <li>Rochas magmáticas intrusivas</li>
-                        <li>Rochas sedimentares</li>
-                        <li>Rochas metamórficas</li>
+                        <li><a href="#Rochas_magmáticas_intrusivas">Rochas magmáticas intrusivas</a></li>
+                        <li><a href="#Rochas_magmáticas_extrusivas">Rochas magmáticas extrusivas</a></li>
+                        <li><a href="#Rochas_sedimentares">Rochas sedimentares</a></li>
+                        <li><a href="#Rochas_metamórficas">Rochas metamórficas</a></li>
                     </ul>
                 </li>
                 <!--pensei em fazer uma dropdown com o indice-->
@@ -47,11 +50,11 @@
             <h1>Introdução</h1>
             <p>texto introdutório</p>
         </section>
-        <section id="Dicionaro">
+        <section id="dicionário">
             <h1>Tipos de Rochas</h1>
-            <h2>Rochas magmáticas extrusivas</h2>
+            <h2 id="Rochas_magmáticas_intrusivas">Rochas magmáticas intrusivas</h2>
             <!--o titulo h2 do termo é um link para o indice direcionar-->
-            <img src="imgs/granito.jpg" alt="ilustração do granito, rocha magmática intrusiva">
+            <img src="imgs/granito.jpg" alt="ilustração do granito, rocha magmática intrusiva" class="imgs">
             <p>
                 São rochas formadas nas partes profundas da litosfera, consolidando as massas magmáticas nas fraturas e
                 nas falhas, mas não chegando a atingir a superfície. O resfriamento acontece de forma lenta, com a
@@ -60,10 +63,9 @@
                 com cristais visíveis.
             </p>
             <p><strong>Exemplos:</strong> granito, riolito.</p>
-            <h3>fonte:https://www.todoestudo.com.br/geografia/rochas-magmaticas#:~:text=As%20rochas%20magmáticas%20são%20as,em%20contato%20com%20a%20atmosfera.
-            </h3>
-            <h2>Rochas magmáticas extrusivas</h2>
-            <img src="imgs/basalto.jpg" alt="ilustração do basalto, rocha magmática extrusiva">
+            <h3><a href="https://www.todoestudo.com.br/geografia/rochas-magmaticas#:~:text=As%20rochas%20magmáticas%20são%20as,em%20contato%20com%20a%20atmosfera">Fonte.</a></h3>
+            <h2 id="Rochas_magmáticas_extrusivas">Rochas magmáticas extrusivas</h2>
+            <img src="imgs/basalto.jpg" alt="ilustração do basalto, rocha magmática extrusiva" class="imgs">
             <p>
                 São rochas formadas a partir do resfriamento da lava dos vulcões, ou pelo magma expelido através de
                 fissuras. A
@@ -72,10 +74,9 @@
                 extrusivas possuem texturas mais finas.
             </p>
             <p><strong>Exemplos:</strong> basalto, gabro.</p>
-            <h3>fonte:https://www.todoestudo.com.br/geografia/rochas-magmaticas#:~:text=As%20rochas%20magmáticas%20são%20as,em%20contato%20com%20a%20atmosfera.
-            </h3>
-            <h2>Rochas sedimentares</h2>
-            <img src="imgs/calcario.jpg" alt="ilustração do calcário, rocha sedimentar">
+            <h3><a href="https://www.todoestudo.com.br/geografia/rochas-magmaticas#:~:text=As%20rochas%20magmáticas%20são%20as,em%20contato%20com%20a%20atmosfera">Fonte.</a></h3>
+            <h2 id="Rochas_sedimentares">Rochas sedimentares</h2>
+            <img src="imgs/calcario.jpg" alt="ilustração do calcário, rocha sedimentar" class="imgs">
             <p>
                 São rochas que requerem um longo período de formação, ela por meio de
                 processos físicos, químicos e biológicos. Dessa forma, são acumulados sedimentos (resíduos) que geram
@@ -87,10 +88,9 @@
                 ou seja, vestígios de seres vivos (vegetal ou animal) antigos.
             </p>
             <p><strong>Exemplos:</strong> calcário, arenito.</p>
-            <h3>fonte:https://www.todamateria.com.br/rochas-sedimentares/#:~:text=As%20rochas%20sedimentares%20ou%20rochas,¾%20das%20rochas%20da%20terra.
-            </h3>
-            <h2>Rochas metamórficas</h2>
-            <img src="imgs/marmore.jpg" alt="ilustração do mármore, rocha metamórfica">
+            <h3><a href="https://www.todamateria.com.br/rochas-sedimentares/#:~:text=As%20rochas%20sedimentares%20ou%20rochas,¾%20das%20rochas%20da%20terra">Fonte.</a></h3>
+            <h2 id="Rochas_metamórficas">Rochas metamórficas</h2>
+            <img src="imgs/marmore.jpg" alt="ilustração do mármore, rocha metamórfica" class="imgs">
             <p>
                 As rochas metamórficas são um dos tipos de rochas que surgem a partir da transformação das rochas
                 sedimentares ou magmáticas. Elas são formadas por processos físico-químicos que ocorrem pela ação de
@@ -100,7 +100,7 @@
                 existentes, seja na estrutura, propriedades ou composição.
             </p>
             <p><strong>Exemplos:</strong> mármore, quartzito.</p>
-            <h3>fonte:https://www.todamateria.com.br/rochas-metamorficas/
+            <h3><a href="https://www.todamateria.com.br/rochas-metamorficas/">Fonte.</a>
             </h3>
         </section>
     </main>

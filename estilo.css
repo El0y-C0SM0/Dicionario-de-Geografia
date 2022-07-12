@@ -7,13 +7,18 @@ body{
 header{
     text-align: center;
     background-color: #09aa23;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
 }
 main{
     padding: 2em;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 section{
     border: 2px solid #09aa23;
     margin: 3em;
+    padding: 1em;
 }
 #cabeçalho{
     text-align: center;
@@ -23,7 +28,11 @@ section{
     display: flex;
     justify-content: space-evenly;  
 }
-#cabeçalho a:link, a:visited{
+#cabeçalho a:link{
+    color: black;
+    text-decoration: none;
+}
+#cabeçalho a:visited{
     color: black;
     text-decoration: none;
 }
@@ -31,12 +40,15 @@ section{
     color: #09aa23;
     text-decoration: none;
 }
+#dicionário p, h2, h3{
+    text-align: left;
+}
 #retornar-topo{
-    background-color: #09aa23;
+    background-color: #064e12;
     border-radius: 50%;
     position: fixed;
     bottom: 2em;
-    right: 2em;
+    right: 1em;
 }
 #retornar-topo h1 a{
     text-decoration: none;
@@ -44,9 +56,58 @@ section{
     color: white;
     text-align: center;
 }
+#indice{
+    background-color: #064e12;
+    color: white;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    padding-right: 1%;
+    padding-left: 1%;
+    border-radius: 10%;
+}
+#indice ul{
+    list-style: none;
+    padding: 0;
+}
 #indice ul li ul{
     display: none;
+    list-style: none;
+    
 }
 #indice:hover ul li ul{
     display: inline;
+    margin: 3em;
+    padding: 3em;
+}
+#indice ul li ul a:link, a:visited{
+    color: white;
+}
+#indice ul li ul a:visited{
+    color: white;
+}
+#indice ul li ul a:hover{
+    color: #09aa23;
+}
+#indice ul li ul a:active{
+    color: #077a1a;
+}
+a:link, a:visited{
+    color: #09aa23;
+    text-decoration: none;
+}
+a:hover{
+    color: #077a1a;
+}
+a:active{
+    color: #064e12;
+    text-decoration: none;
+}
+/*editando as imagens*/
+#dicionário{
+    text-align: center;
+}
+
+.imgs{
+    width: 15em;   
 }
